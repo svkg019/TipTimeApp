@@ -60,7 +60,7 @@ fun TipTimeScreen() {
         )
         Spacer(modifier = Modifier.height(24.dp))
         Text(
-            text = stringResource(id = R.string.calculate_tip, tip),
+            text = stringResource(id = R.string.tip_amount,tip),
             fontSize = 20.sp,
             fontWeight = FontWeight.Bold,
             modifier = Modifier.align(Alignment.CenterHorizontally)
